@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SFPI" serializer_version="v1.0.0">
+ <asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+  <asx:values>
+   <VERSION>1</VERSION>
+   <TYPE/>
+   <INTERFACE href="#o1"/>
+   <INTERFACET>
+    <FPINTERFACET>
+     <NAME/>
+     <STATE/>
+     <LANGUAGE>E</LANGUAGE>
+     <ID/>
+     <TEXT>Adobe form interface</TEXT>
+    </FPINTERFACET>
+   </INTERFACET>
+  </asx:values>
+  <asx:heap xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:abap="http://www.sap.com/abapxml/types/built-in" xmlns:cls="http://www.sap.com/abapxml/classes/global" xmlns:dic="http://www.sap.com/abapxml/types/dictionary">
+   <cls:CL_FP_INTERFACE_DATA id="o1">
+    <CL_FP_INTERFACE_DATA classVersion="1">
+     <CODING href="#o5"/>
+     <PARAMETERS href="#o4"/>
+     <GLOBAL_DEFINITIONS href="#o3"/>
+     <REFERENCE_FIELDS href="#o2"/>
+     <XSD_DEFINITIONS/>
+    </CL_FP_INTERFACE_DATA>
+   </cls:CL_FP_INTERFACE_DATA>
+   <cls:CL_FP_REFERENCE_FIELDS id="o2">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_REFERENCE_FIELDS classVersion="1">
+     <REFERENCE_FIELDS>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>QUAN</DATATYPE>
+       <VALUE>GS_INVOICE-FKIMG</VALUE>
+       <UNIT>GV_VRKME</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INVOICE-NETWR</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INVOICE-MWSBP</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_VALUE-GV_TOT1</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_VALUE-GV_TOT2</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_VALUE-GV_PRIC</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+      <SFPREF>
+       <ACTIVE/>
+       <STANDARD/>
+       <DATATYPE>CURR</DATATYPE>
+       <VALUE>GS_INVOICE-PRIC</VALUE>
+       <UNIT>GV_WAERK</UNIT>
+      </SFPREF>
+     </REFERENCE_FIELDS>
+    </CL_FP_REFERENCE_FIELDS>
+   </cls:CL_FP_REFERENCE_FIELDS>
+   <cls:CL_FP_GLOBAL_DEFINITIONS id="o3">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_GLOBAL_DEFINITIONS classVersion="1">
+     <GLOBAL_DATA>
+      <SFPGDATA>
+       <NAME>GS_VBRK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_S_VBRK</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_WAERK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>WAERK</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GV_VRKME</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>VRKME</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_S_INVOICE</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_KNA1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_S_KNA1</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+      <SFPGDATA>
+       <NAME>GS_ADRC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_S_ADRC</TYPENAME>
+       <DEFAULTVAL/>
+       <CONSTANT/>
+      </SFPGDATA>
+     </GLOBAL_DATA>
+     <TYPES/>
+     <FIELDSYMBOLS/>
+    </CL_FP_GLOBAL_DEFINITIONS>
+   </cls:CL_FP_GLOBAL_DEFINITIONS>
+   <cls:CL_FP_PARAMETERS id="o4">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_PARAMETERS classVersion="1">
+     <IMPORT_PARAMETERS>
+      <SFPIOPAR>
+       <NAME>GT_VBRK</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_VBRK_T</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GT_INVOICE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_INVOICE_T</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GS_VALUE</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_S_VALUE</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GT_ADRC</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_ADRC_T</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+      <SFPIOPAR>
+       <NAME>GT_KNA1</NAME>
+       <TYPING>TYPE</TYPING>
+       <TYPENAME>ZBA_KNA1_T</TYPENAME>
+       <OPTIONAL/>
+       <BYVALUE/>
+       <DEFAULTVAL/>
+       <STANDARD/>
+       <CONSTANT/>
+      </SFPIOPAR>
+     </IMPORT_PARAMETERS>
+     <EXPORT_PARAMETERS/>
+     <TABLE_PARAMETERS/>
+     <EXCEPTIONS/>
+    </CL_FP_PARAMETERS>
+   </cls:CL_FP_PARAMETERS>
+   <cls:CL_FP_CODING id="o5">
+    <CL_FP_INTERFACE_DATA_CHANGED classVersion="1">
+     <INTERFACE_DATA href="#o1"/>
+    </CL_FP_INTERFACE_DATA_CHANGED>
+    <CL_FP_CODING classVersion="1">
+     <INPUT_PARAMETERS>
+      <FPPARAMETER>GS_INVOICE</FPPARAMETER>
+      <FPPARAMETER>GT_INVOICE</FPPARAMETER>
+     </INPUT_PARAMETERS>
+     <OUTPUT_PARAMETERS>
+      <FPPARAMETER>GS_INVOICE</FPPARAMETER>
+      <FPPARAMETER>GT_INVOICE</FPPARAMETER>
+     </OUTPUT_PARAMETERS>
+     <INITIALIZATION>
+      <FPCLINE> TABLES: vbrk, vbrp.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE> CALL FUNCTION &apos;CONVERSION_EXIT_CUNIT_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>   EXPORTING</FPCLINE>
+      <FPCLINE>     input          = gs_invoice-vrkme</FPCLINE>
+      <FPCLINE>     language       = sy-langu</FPCLINE>
+      <FPCLINE>   IMPORTING</FPCLINE>
+      <FPCLINE>     output         = gs_invoice-vrkme</FPCLINE>
+      <FPCLINE>   EXCEPTIONS</FPCLINE>
+      <FPCLINE>     unit_not_found = 1</FPCLINE>
+      <FPCLINE>     OTHERS         = 2.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE> CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>   EXPORTING</FPCLINE>
+      <FPCLINE>     input  = gs_invoice-vbeln</FPCLINE>
+      <FPCLINE>   IMPORTING</FPCLINE>
+      <FPCLINE>     output = gs_invoice-vbeln.</FPCLINE>
+      <FPCLINE/>
+      <FPCLINE> CALL FUNCTION &apos;CONVERSION_EXIT_ALPHA_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>   EXPORTING</FPCLINE>
+      <FPCLINE>     input  = gs_invoice-kunrg</FPCLINE>
+      <FPCLINE>   IMPORTING</FPCLINE>
+      <FPCLINE>     output = gs_invoice-kunrg.</FPCLINE>
+      <FPCLINE> CALL FUNCTION &apos;CONVERSION_EXIT_MATN1_OUTPUT&apos;</FPCLINE>
+      <FPCLINE>   EXPORTING</FPCLINE>
+      <FPCLINE>     input  = gs_invoice-matnr</FPCLINE>
+      <FPCLINE>   IMPORTING</FPCLINE>
+      <FPCLINE>     output = gs_invoice-matnr.</FPCLINE>
+     </INITIALIZATION>
+     <FORMS/>
+    </CL_FP_CODING>
+   </cls:CL_FP_CODING>
+  </asx:heap>
+ </asx:abap>
+</abapGit>

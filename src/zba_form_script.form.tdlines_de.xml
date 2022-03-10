@@ -1,0 +1,484 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<abapGit version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TDLINES>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>ADDR</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>ADDR</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-NAME1_1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-STREET&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-HOUSE_NUM1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-CITY1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-LANDX_1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-STCEG_1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>CUSTOMER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>CUS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&lt;C1&gt;Customer&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-NAME1&amp; &amp;GS_INVOICE-STCEG&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-STRAS&amp;, &amp;GS_INVOICE-ORT01&amp;, &amp;GS_INVOICE-LANDX&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P5</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-TELEF1&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>GRAPH1</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BITMAP &apos;COMPANY_LOGO&apos; OBJECT GRAPHICS ID BMAP TYPE BMON</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>INBOLD</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>INV</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P2</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-VBELN&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P2</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-FKDAT&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>IN_NR_DT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>INVO</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P2</TDFORMAT>
+     <TDLINE>&lt;C1&gt;Invoice number:&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P2</TDFORMAT>
+     <TDLINE>&lt;C1&gt;Invoice date:&lt;/&gt;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>MAIN</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>TABLE</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;PAGE&amp; = 1.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION YORIGIN &apos;98&apos; MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos; MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193&apos;MM HEIGHT &apos;5&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;18&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;90&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;100&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;120&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;142&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;167&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ELSEIF &amp;NEXTPAGE&amp; EQ 0.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION YORIGIN &apos;98&apos; MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos; MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193&apos;MM HEIGHT &apos;5&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;18&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;90&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;100&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;120&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;142&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;167&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>HEAD</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE>  Item,,Description,,UM,,Qty,,Price,,Amount,,Tax</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>MATERIALS</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE>  &amp;GS_INVOICE-POSNR(Z5)&amp;,,&amp;GS_INVOICE-ARKTX&amp;,,&amp;GS_INVOICE-VRKME&amp;,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>&amp;GS_INVOICE-FKIMG(.0)&amp;,,&amp;GS_INVOICE-PRIC(.2)&amp;,,&amp;GS_INVOICE-NETWR(.1)&amp;&amp;GS_INVOICE-MWSBP(.1)&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE>,,Material Number: &amp;GS_INVOICE-MATNR&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>DESC</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE>,,&amp;GS_ROW&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>PAGENR</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>PAG</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX XPOS &apos;0&apos; MM YPOS &apos;0&apos; CM WIDTH &apos;65&apos; MM HEIGHT &apos;1&apos; CM FRAME 5 TW</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P6</TDFORMAT>
+     <TDLINE>Page &amp;PAGE&amp; of &amp;SAPSCRIPT-FORMPAGES&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>TOTAL</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>FOOTER</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>IF &amp;NEXTPAGE&amp; EQ 0</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM YORIGIN &apos;232.75&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193.23&apos;MM HEIGHT &apos;20.30&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;90&apos;MM HEIGHT &apos;20.30&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;131&apos;MM HEIGHT &apos;20.30&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;167&apos;MM HEIGHT &apos;20.30&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193.23&apos;MM HEIGHT &apos;20.30&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE> Incoterms: &amp;GS_INVOICE-BEZEI&amp; &amp;GS_INVOICE-INCO1&amp;,&amp;GS_INVOICE-INCO2&amp;,,,,</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>=</TDFORMAT>
+     <TDLINE>,,,,,,,,&lt;C1&gt;TOTAL&amp;GS_VALUE-GV_TOT1&amp;&lt;/&gt;&amp;GS_VALUE-GV_TOT2&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>P3</TDFORMAT>
+     <TDLINE> Payment terms:&amp;GS_INVOICE-VTEXT&amp;,,&amp;GS_INVOICE-ZTERM&amp;</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>ENDIF.</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/W</TDFORMAT>
+     <TDLINE>WINDOW1</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/E</TDFORMAT>
+     <TDLINE>BOXBOX</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0,5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION YORIGIN &apos;98&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX FRAME &apos;0.5&apos;PT POSITION</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;18&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;90&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;100&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;120&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;142&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;167&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>POSITION XORIGIN &apos;7&apos;MM</TDLINE>
+    </TLINE>
+    <TLINE>
+     <TDFORMAT>/:</TDFORMAT>
+     <TDLINE>BOX WIDTH &apos;193&apos;MM HEIGHT &apos;135&apos;MM FRAME &apos;0.5&apos;PT</TDLINE>
+    </TLINE>
+   </TDLINES>
+  </asx:values>
+ </asx:abap>
+</abapGit>
